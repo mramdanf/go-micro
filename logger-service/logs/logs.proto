@@ -1,4 +1,4 @@
-syntax = "proto3"
+syntax = "proto3";
 
 package logs;
 
@@ -18,5 +18,5 @@ message LogResponse {
 }
 
 service LogService {
-    rpc WriteLog(LogRequest) returns (LogResponse)
+    rpc WriteLog(LogRequest) returns (LogResponse);
 }
